@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ]
+    ]
+  },
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "dependencies": {
+    "core-js": "^3.0.1",
+    "@babel/polyfill": "^7.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "live-server": "^1.2.1"
+  },
+  "author": "Almaz Yakupov",
+  "license": "ISC",
+  "description": ""
+}
